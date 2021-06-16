@@ -3,9 +3,22 @@
     padding: 0;
     margin: 0;
 }
-a :hover{
+a:hover{
     color: rgb(158, 97, 97);
 }
+
+.contact-me a:hover {
+    color: rgb(158, 97, 97);
+}
+
+.resume a:hover {
+    color: rgb(158, 97, 97);
+}
+
+.work a:hover {
+    box-shadow: 2px 2px 2px springgreen;
+}
+
 
 a {
     text-decoration: none;
@@ -22,8 +35,17 @@ img {
     height: 1000px;
     display: wrap;
     flex-wrap: wrap;
+    flex-shrink: inherit;
 }
 
+.work img {
+    height: 80px;
+    width: 100px
+}
+
+.work p {
+    color:rgb(10, 90, 160);
+}
 
 .contact-me a {
     color: rgb(10, 90, 160);
@@ -61,15 +83,28 @@ img {
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 22px;
+}
+.header li {
+    text-decoration: underline;
 }
 
 .content  {
+    position: absolute;
+    right: -20px;
+    margin-top: -1000px;
     margin-right: 10px;
     float: right;
     padding-right: 575px;
     flex-wrap: wrap;
-    align-content: space-evenly;
+}
+
+.content div {
+    flex-direction: column;
+}
+
+.content h2 {
+    text-decoration: underline;
 }
 
 .work {
@@ -93,4 +128,15 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+@media screen and (max-width: 640px) {
+
+    header {
+        background: teal;
+        flex-direction: row;
+    }
+
+
+    
 }
