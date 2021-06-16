@@ -3,8 +3,11 @@
     padding: 0;
     margin: 0;
 }
+a :hover{
+    color: rgb(158, 97, 97);
+}
 
-a{
+a {
     text-decoration: none;
     color: aliceblue;
 }
@@ -12,6 +15,24 @@ a{
 body {
     background-color: #d9dcd6;
 }
+
+img {
+    text-align: left;
+    background-size: cover;
+    height: 1000px;
+    display: wrap;
+    flex-wrap: wrap;
+}
+
+
+.contact-me a {
+    color: rgb(10, 90, 160);
+}
+
+.resume a {
+    color: rgb(10, 90, 160);
+}
+
 
 .header {
     padding: 20px;
@@ -42,6 +63,31 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+.content  {
+    margin-right: 10px;
+    float: right;
+    padding-right: 575px;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.work {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-me {
+    margin-bottom: 40px;
+}
+
+.contact-me a,h4 {
+    display: inline-block;
+    padding: 10px
+}
+.contact-me p {
+    font-weight: lighter;
+}
+
 
 ul {
     list-style-type: none;
