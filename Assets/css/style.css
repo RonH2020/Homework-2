@@ -92,12 +92,13 @@ img {
 .content  {
     position: absolute;
     right: -20px;
-    margin-top: -1000px;
     margin-right: 10px;
+    margin-left: 10px;
     float: right;
-    padding-right: 575px;
+    display: flex;
     flex-wrap: wrap;
 }
+
 
 .content div {
     flex-direction: column;
@@ -135,6 +136,10 @@ ul {
     header {
         background: teal;
         flex-direction: row;
+    }
+
+    .content {
+
     }
 
 
