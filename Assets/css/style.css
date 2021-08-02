@@ -30,25 +30,33 @@ body {
 }
 
 img {
-    text-align: left;
+    /* text-align: left; */
     background-size: cover;
-    height: 1000px;
+    max-height: 500px;
     display: wrap;
     flex-wrap: wrap;
     flex-shrink: inherit;
+   
 }
 
 .work img {
-    height: 80px;
-    width: 100px
+    height: 150px;
+    width: 200px;
 }
 
 .work p {
     color:rgb(10, 90, 160);
+    font-size: large;
 }
 
-.contact-me a {
+.work a {
+    display: inline-block;
+    padding: 20px;
+}
+
+.contact-me a h3 {
     color: rgb(10, 90, 160);
+    font-size: large;
 }
 
 .resume a {
@@ -89,22 +97,20 @@ img {
     text-decoration: underline;
 }
 
-.content  {
-    position: absolute;
+.container  {
     right: -20px;
     margin-right: 10px;
     margin-left: 10px;
-    float: right;
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.content div {
+.container div {
     flex-direction: column;
 }
 
-.content h2 {
+.container h2 {
     text-decoration: underline;
 }
 
@@ -118,12 +124,11 @@ img {
 
 .contact-me a,h4 {
     display: inline-block;
-    padding: 10px
+    padding: 10px;
 }
 .contact-me p {
     font-weight: lighter;
 }
-
 
 ul {
     list-style-type: none;
